@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Times48 - Data Analytics as a Service</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .hero {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url('https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md fixed w-full top-0 z-50 py-4">
+      <div class="container mx-auto px-6 flex justify-between items-center">
+        <h1 class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">Times48</h1>
+        <nav>
+          <ul class="flex space-x-6 text-base font-medium">
+            <li><a href="#home" class="hover:text-blue-600">Home</a></li>
+            <li><a href="#services" class="hover:text-blue-600">Services</a></li>
+            <li><a href="#team" class="hover:text-blue-600">Team</a></li>
+            <li><a href="#subscriptions" class="hover:text-blue-600">Subscriptions</a></li>
+            <li><a href="#contact" class="hover:text-blue-600">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero text-white h-screen flex items-center justify-center px-4">
+      <div class="text-center max-w-3xl">
+        <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">Empower Your Data with Times48</h2>
+        <p class="text-lg md:text-xl mb-8">Subscription-based data analytics to unlock actionable insights for your business.</p>
+        <a href="#subscriptions" class="bg-gradient-to-r from-blue-600 to-green-500 text-white px-6 py-3 rounded-full text-lg font-semibold hover:from-blue-700 hover:to-green-600 transition-all">Explore Plans</a>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white text-center">
+      <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-10">Our Services</h2>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Data Cleaning</h3>
+          <p class="text-gray-600">Remove inconsistencies and errors to ensure clean, usable data.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Data Mining</h3>
+          <p class="text-gray-600">Discover patterns, trends, and insights from complex datasets.</p>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Visualization</h3>
+          <p class="text-gray-600">Turn data into actionable dashboards and visuals.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-gray-100 text-center">
+      <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-10">Meet Our Team</h2>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" class="w-28 h-28 mx-auto rounded-full mb-4" alt="John Doe" />
+          <h3 class="text-lg font-semibold">John Doe</h3>
+          <p class="text-gray-500">Data Scientist</p>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" class="w-28 h-28 mx-auto rounded-full mb-4" alt="Jane Smith" />
+          <h3 class="text-lg font-semibold">Jane Smith</h3>
+          <p class="text-gray-500">Data Engineer</p>
+        </div>
+        <div class="text-center">
+          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" class="w-28 h-28 mx-auto rounded-full mb-4" alt="Alex Johnson" />
+          <h3 class="text-lg font-semibold">Alex Johnson</h3>
+          <p class="text-gray-500">Data Consultant</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscriptions Section -->
+    <section id="subscriptions" class="py-20 bg-white text-center">
+      <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-10">Subscription Plans</h2>
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Basic</h3>
+          <p class="text-gray-600 mb-4">Essential analytics for small businesses.</p>
+          <ul class="text-sm text-left text-gray-700 space-y-1 mb-4">
+            <li>✔ Data Cleaning</li>
+            <li>✔ Basic Dashboards</li>
+            <li>✔ Email Support</li>
+          </ul>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Choose Plan</button>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Pro</h3>
+          <p class="text-gray-600 mb-4">Advanced analytics and visualizations.</p>
+          <ul class="text-sm text-left text-gray-700 space-y-1 mb-4">
+            <li>✔ All Basic Features</li>
+            <li>✔ Custom Reports</li>
+            <li>✔ API Access</li>
+          </ul>
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Choose Plan</button>
+        </div>
+        <div class="bg-gray-100 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-semibold text-blue-800 mb-2">Enterprise</h3>
+          <p class="text-gray-600 mb-4">Comprehensive data services with support.</p>
+          <ul class="text-sm text-left text-gray-700 space-y-1 mb-4">
+            <li>✔ All Pro Features</li>
+            <li>✔ Dedicated Consultant</li>
+            <li>✔ Priority Support</li>
+          </ul>
+          <button class="bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700">Choose Plan</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100 text-center">
+      <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500 mb-10">Get in Touch</h2>
+      <p class="text-gray-600 mb-6">Reach out to discuss your data needs or start a project.</p>
+      <p><strong>Email:</strong> <a href="mailto:info@times48.com" class="text-blue-600 hover:underline">info@times48.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+1234567890" class="text-blue-600 hover:underline">(123) 456-7890</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-6 text-center">
+      <p class="text-sm">© 2025 Times48. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
